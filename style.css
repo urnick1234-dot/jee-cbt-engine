@@ -1,0 +1,91 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f1f3f6;
+}
+
+.header{
+  background:#0a3d91;
+  color:white;
+  padding:12px 20px;
+  display:flex;
+  justify-content:space-between;
+  font-size:18px;
+}
+
+.main{
+  display:flex;
+  height:92vh;
+}
+
+.left-panel{
+  width:75%;
+  background:white;
+  padding:20px;
+  overflow:auto;
+}
+
+.right-panel{
+  width:25%;
+  background:#e6ebf5;
+  padding:15px;
+  overflow:auto;
+  border-left:2px solid #ccc;
+}
+
+.section-buttons button{
+  margin-right:10px;
+  padding:6px 12px;
+  background:#0a3d91;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+.question-box{
+  margin-top:20px;
+}
+
+#options-container label{
+  display:block;
+  margin:8px 0;
+  cursor:pointer;
+}
+
+.navigation{
+  margin-top:20px;
+}
+
+.navigation button{
+  margin-right:10px;
+  padding:8px 12px;
+  cursor:pointer;
+}
+
+.palette-btn{
+  width:40px;
+  height:40px;
+  margin:4px;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.not-visited{
+  background:#d3d3d3;
+}
+
+.not-answered{
+  background:#e74c3c;
+  color:white;
+}
+
+.answered{
+  background:#2ecc71;
+  color:white;
+}
+
+.review{
+  background:#8e44ad;
+  color:white;
+}
