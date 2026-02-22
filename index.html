@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JEE Main CBT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <div>JEE Main Mock Examination</div>
+  <div id="timer">03:00:00</div>
+</div>
+
+<div class="main">
+
+<div class="left-panel">
+
+<div class="section-buttons">
+  <button onclick="switchSection('Math')">Mathematics</button>
+  <button onclick="switchSection('Physics')">Physics</button>
+  <button onclick="switchSection('Chemistry')">Chemistry</button>
+</div>
+
+<div class="question-box">
+  <h3 id="question-title"></h3>
+  <div id="question-text"></div>
+  <div id="options-container"></div>
+</div>
+
+<div class="navigation">
+  <button onclick="prevQuestion()">Previous</button>
+  <button onclick="markForReview()">Mark for Review</button>
+  <button onclick="nextQuestion()">Next</button>
+  <button onclick="submitTest()">Submit</button>
+</div>
+
+</div>
+
+<div class="right-panel">
+  <h4>Question Palette</h4>
+  <div id="palette"></div>
+</div>
+
+</div>
+
+<script src="questions.js"></script>
+<script src="analysis.js"></script>
+</body>
+</html>
